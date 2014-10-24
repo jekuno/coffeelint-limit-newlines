@@ -1,0 +1,36 @@
+{
+  "name": "coffeelint-limit-newlines",
+  "version": "0.0.1",
+  "description": "Validate a newline limit policy",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/begizi/coffeelint-limit-newlines.git"
+  },
+  "keywords": [
+    "coffeelint",
+    "coffeelintrule",
+    "coffee-lint",
+    "newline",
+    "rule",
+    "eof"
+  ],
+  "author": {
+    "name": "Brian Egizi",
+    "email": "me@brianegizi.com",
+    "url": "http://brianegizi.com"
+  },
+  "bugs": {
+    "url": "https://github.com/begizi/coffeelint-limit-newlines/issues"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "homepage": "https://github.com/begizi/coffeelint-limit-newlines",
+  "peerDependencies": {
+    "coffeelint": "~1"
+  }
+}
