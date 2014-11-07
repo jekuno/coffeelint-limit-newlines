@@ -3,7 +3,8 @@ begizi/coffeelint-limit-newlines
 ###
 
 regexes =
-    lineHasComment : /^\s*[^\#]*\#/
+    lineHasComment: /^\s*[^\#]*\#/
+    isEmptyLine: /^[\n\s+]*$/
 
 class RuleProcessor
 
@@ -25,7 +26,7 @@ class RuleProcessor
     isExcess = false
 
     for i in [1...emptyLines + 1]
-      if lineApi.lineHasToken(null, lineNumber - i)
+      unless regexes.isEmptyLine.test(lineApi.lines[lineNumber - i])
         isExcess = false
         break
       else

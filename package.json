@@ -1,6 +1,6 @@
 {
   "name": "coffeelint-limit-newlines",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Validate a newline limit policy",
   "main": "index.js",
   "scripts": {
