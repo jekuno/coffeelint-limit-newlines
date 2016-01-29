@@ -4,7 +4,8 @@
   "description": "Validate a newline limit policy",
   "main": "index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "postinstall": "coffee -c index.coffee"
   },
   "repository": {
     "type": "git",
